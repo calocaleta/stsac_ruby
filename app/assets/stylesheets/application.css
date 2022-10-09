@@ -1,15 +1,157 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../imgs/bgm.PNG);
+}
+.tentrada {
+	font-weight: bold;
+	color: #3B5998;
+	font-size: 14px;
+}
+.centrada {
+	color: #333333;
+	font-size: 12px;
+}
+.tmenu {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+}
+.nmenu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+.bmenu {
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+}
+.login {
+	font-weight: bold;
+}
+.fpag {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+}
+.stitulo {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #EDEDED;
+	font-size: 24px;
+	font-weight: bold;
+}
+.comentario {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+}
+.ncomentario {
+	font-weight: bold;
+}
+.linkd {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3B5998;
+}
+.Estilo1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+}
+.Estilo4 {
+	font-size: 11px;
+	color: #333333;
+}
+.UIButton{
+background-image:url(apfsevhg.png);
+border-style:solid;
+border-width:1px;
+display:-moz-inline-box;
+display:inline-block;
+outline:none;
+padding:3px 6px;
+vertical-align:bottom
+}
+.UIButton:hover, .UIButton:active{text-decoration:none}
+.UIButton:active{-moz-box-shadow:0 1px 0 rgba(0,0,0,.05);-webkit-box-shadow:0 1px 0 rgba(0,0,0,.05)}
+.dialog_content .UIComposer_ButtonArea .UIButton_Blue .UIButton_Text{min-width:56px}
+
+.UIButton_Blue{background-color:#5C74A9;background-position:0 -48px;border-color:#29447e #29447e #1a356e;-moz-box-shadow:0
+
+1px 0 rgba(0,0,0,.12);-webkit-box-shadow:0 1px 0 rgba(0,0,0,.12)}
+.UIButton_Blue:active{background-color:#4f6aa3;background-image:none;border-color:#29447e}
+.UIButton_Blue .UIButton_Text{color:#fff}
+
+
+.UIButton_Text{
+background-color:transparent;
+border:none;
+cursor:pointer;
+display:block;
+font-size:11px;
+font-weight:bold;
+line-height:14px;
+*line-height:13px;
+margin:0;overflow:visible;
+padding:0;
+*padding-bottom:1px;
+width:auto
+}
+.texto{height:22px;width:75px; border: solid 1px #BDC7D8;}
+.textoa{width:375px; border: solid 1px #BDC7D8;}
+
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+
+
+
+.ufb {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #3B5998;}
+.tcfb {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #333333;}
+.tcfb2 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;}
+.cfb {
+	font-family: Tahoma;
+	color: #333333;
+	font-size: 11px;
+}
+.tdfb {
+	font-family: Tahoma;
+	color: #999999;
+	font-size: 11px;
+}
+.hfb {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #808080;
+}
+.lfb {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #3B5998;
+}
